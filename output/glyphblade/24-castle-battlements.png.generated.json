@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/24-castle-battlements.png",
+  "image_sha256": "a74963b75b152900074ad7fd274c752068485248a84e13bc3206cbdb2f7a8461",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "format": "PNG",
+  "created_at": null,
+  "generator": "image_gen.imagegen (built-in)",
+  "prompt": "Use case: stylized-concept. Input image: user screenshot as gothic side-scrolling setting reference. Original standalone game artwork, matching the purple, charcoal, bone, crimson, teal and amber visual language of Ragnarok Online character charm and 32-bit Castlevania-inspired pixel art; crisp deliberate pixel clusters, readable silhouette, subtle detailed shading. Subject: One isolated horizontal segment of weathered Gothic castle battlement, purple-grey masonry, crenellations, side-on architecture, no background. Isolated subject, transparent background, generous margins, no scene, no UI, no words or lettering, no borders.",
+  "prompt_status": "exact",
+  "references": [
+    {
+      "path": "references/glyphblade/user-screenshot-rotated.png",
+      "role": "user-supplied setting reference"
+    }
+  ],
+  "subject": "24-castle-battlements",
+  "visual_approach": "Gothic fantasy pixel-style standalone asset",
+  "generation_settings": {
+    "transparent_background": true,
+    "other_settings": null
+  },
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Generator does not expose seed."
+  },
+  "revision_of": null,
+  "post_analysis": {
+    "provenance": "Post-generation subagent visual analysis; not part of the original generation prompt.",
+    "subject": "Purple crenellated wall with a tower end, banners and flag",
+    "composition": "Single isolated subject.",
+    "environment": "Transparent surrounding pixels.",
+    "colors": "Dark violet, crimson, gold and cyan, varying with subject.",
+    "materials": "Stone, cloth, metal and water-like appearances as depicted.",
+    "lighting": "Stylized highlights and warm local flame or window glow.",
+    "standout_features": "Purple crenellated wall with a tower end, banners and flag",
+    "important_details": "Ends differ and are not seamless.",
+    "synopsis": "Purple crenellated wall with a tower end, banners and flag",
+    "defect_analysis": {
+      "findings": [
+        {
+          "issue": "Ends differ and are not seamless.",
+          "location": "Whole image",
+          "confidence": "high",
+          "impact": "Moderate for tiling."
+        }
+      ],
+      "overall": "Static concept art; sizes and apparent pixel scale vary."
+    },
+    "mismatches_or_uncertainties": "Some outputs have maximum alpha 254 rather than 255."
+  }
+}

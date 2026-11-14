@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/01-graveyard/preview-composite.png",
+  "image_sha256": "2d488b27c5f016de051cdf3566bd35df5f56b0322c9997741f11efac59ac1bf5",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image compositing",
+  "prompt": null,
+  "prompt_status": "not generated; composite preview",
+  "references": [
+    {
+      "path": "output/glyphblade/layered-scenes/01-graveyard/background/far-plate.png",
+      "role": "far plate"
+    },
+    {
+      "path": "output/glyphblade/layered-scenes/01-graveyard/background/back-props-layout.png",
+      "role": "back props layer"
+    },
+    {
+      "path": "output/glyphblade/layered-scenes/01-graveyard/background/mid-props-layout.png",
+      "role": "mid props layer"
+    },
+    {
+      "path": "output/glyphblade/layered-scenes/01-graveyard/background/near-props-layout.png",
+      "role": "near props layer"
+    },
+    {
+      "path": "output/glyphblade/layered-scenes/01-graveyard/foreground/source-ground-strip.png",
+      "role": "foreground source crop"
+    }
+  ],
+  "operation": "Alpha-composite layers in order; paste source ground strip at floor_top_y."
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/02-chapel/foreground/source-ground-strip.png",
+  "image_sha256": "36bf631ad725c6ecb46c57b88dfe029e1e61a933c8b0ab5fa685f690d9059756",
+  "dimensions": [
+    1870,
+    141
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/02-chapel.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Exact crop (0,700,1870,841); may include original lighting and scene details.",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

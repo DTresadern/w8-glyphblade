@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "image": "output/sprites/01-bell-spirit.png",
+  "image_sha256": "2da882ec267a7b062096ae7332d2bec9d6e9e71530f78bb79a536c2f1f4d978a",
+  "dimensions": [
+    1312,
+    1199
+  ],
+  "format": "PNG",
+  "created_at": null,
+  "generator": "image_gen.imagegen (built-in)",
+  "prompt": "Use case: stylized-concept. Create one original game sprite: a tiny rose-colored gelatinous chapel spirit with a little cracked bronze bell embedded inside, friendly face, rounded silhouette. Ragnarok-inspired expressive fantasy creature meets ornate gothic side-scroller pixel art. Single isolated object, three-quarter view, consistent dark plum outlines, muted burgundy, bone, tarnished gold and teal palette, deliberate crisp pixel clusters, no lettering, no frame, no ground, transparent background.",
+  "prompt_status": "exact",
+  "references": [],
+  "subject": "bell-spirit",
+  "visual_approach": "Gothic fantasy pixel-style isolated asset",
+  "generation_settings": {
+    "transparent_background": true,
+    "other_settings": null
+  },
+  "creative_seed": {
+    "value": "58e99235d027f20f",
+    "source": "creative_seed.py visual profile; design provocation",
+    "used_for_generation": false,
+    "note": "The image generator does not expose a seed parameter."
+  },
+  "revision_of": null,
+  "post_analysis": {
+    "provenance": "Post-generation subagent visual analysis; not part of the original generation prompt.",
+    "subject": "Pink smiling slime, cracked bronze bell and a miniature Gothic chapel headpiece",
+    "composition": "Single isolated subject.",
+    "environment": "Transparent surrounding pixels; transparency verified separately.",
+    "colors": "Predominantly burgundy, teal, bone and gold, varying by subject.",
+    "materials": "Materials are depicted appearances.",
+    "lighting": "Stylized highlights and shaded forms.",
+    "standout_features": "Pink smiling slime, cracked bronze bell and a miniature Gothic chapel headpiece",
+    "important_details": "Cross nearly touches upper edge",
+    "synopsis": "Pink smiling slime, cracked bronze bell and a miniature Gothic chapel headpiece",
+    "defect_analysis": {
+      "findings": [
+        {
+          "issue": "Cross nearly touches upper edge",
+          "location": "See issue description",
+          "confidence": "high",
+          "impact": "Moderate for small sprites or cropping"
+        }
+      ],
+      "overall": "Apparent pixel size varies and soft shading limits strict small-grid pixel-art use."
+    },
+    "mismatches_or_uncertainties": "Initial viewer-based concerns about dark backgrounds were not corroborated by alpha checks; the bat was also composited over white."
+  }
+}

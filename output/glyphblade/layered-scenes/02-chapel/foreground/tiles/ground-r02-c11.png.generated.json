@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/02-chapel/foreground/tiles/ground-r02-c11.png",
+  "image_sha256": "03ac98590a57e04338eb26d4e41cb8b67ec2a14f982875ba209b960adc282f16",
+  "dimensions": [
+    128,
+    64
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/02-chapel.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Crop source at (1408,828) size 128x13; padded to 128x64 with transparency.",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/02-chapel/characters/ghost.png",
+  "image_sha256": "4958d2a5c0220cf8915993793b057d333a8a9e7bd5573d1365e01261e2f79582",
+  "dimensions": [
+    145,
+    200
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/08-ghost.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Trim to alpha >=24 bounding box (436, 78, 1083, 972), retain original alpha within box, resize nearest-neighbor to (145, 200).",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

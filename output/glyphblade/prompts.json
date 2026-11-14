@@ -1,0 +1,92 @@
+[
+  {
+    "name": "01-graveyard",
+    "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: A moonlit graveyard outside a distant black castle, skeletal trees, headstones, iron fencing, stone pillars and a three-candle floor stand. A white-haired hunter with crimson scarf faces a skeletal swordsman; a quiet hooded nun stands nearby with a lantern. Blood moon, violet mountains, amber candlelight. Reimagine the reference's complete scene with the previously obscured background plausibly continued. Wide horizontal side-view gameplay scene concept, layered parallax composition, uninterrupted walkable ground near bottom, no UI, no overlays, no dialogue, no words, no logos, no borders.",
+    "transparent": false
+  },
+  {
+    "name": "02-chapel",
+    "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: The ruined interior of a Gothic castle chapel: towering stained glass, stone arches, torn red drapes, crooked candelabra, cracked tiled floor and low mist. A white-haired hunter faces a spectral ghost near an altar. Wide horizontal side-view gameplay scene concept, layered parallax composition, uninterrupted walkable ground near bottom, no UI, no overlays, no dialogue, no words, no logos, no borders.",
+    "transparent": false
+  },
+  {
+    "name": "03-crypt",
+    "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: A subterranean ossuary and crypt: carved stone pillars, arched tomb niches, iron gates, candles, coffin and hanging roots. A white-haired hunter confronts a shambling zombie and skeleton in a side-scrolling platform environment. Wide horizontal side-view gameplay scene concept, layered parallax composition, uninterrupted walkable ground near bottom, no UI, no overlays, no dialogue, no words, no logos, no borders.",
+    "transparent": false
+  },
+  {
+    "name": "04-castle-garden",
+    "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: A haunted castle courtyard garden at night with dead trees, moon, overgrown stone arches, iron fence, gravestones, hanging banners and distant castle silhouette. A white-haired hunter faces a skeletal sentry. Wide horizontal side-view gameplay scene concept, layered parallax composition, uninterrupted walkable ground near bottom, no UI, no overlays, no dialogue, no words, no logos, no borders.",
+    "transparent": false
+  },
+  {
+    "name": "05-hunter",
+    "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: One original white-haired vampire hunter protagonist, pale spiky hair, dark long coat, flowing red scarf and steel sword, full body right-facing three-quarter idle pose. Isolated standalone asset, transparent background, ample margins, no other objects, no labels, no UI, no text.",
+    "transparent": true
+  },
+  {
+    "name": "06-skeleton-warrior",
+    "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: One skeletal warrior enemy with bone skull and ribcage, worn dark armor scraps, a rusty sword and small shield, full body facing left in a combat-ready idle pose. Isolated standalone asset, transparent background, ample margins, no other objects, no labels, no UI, no text.",
+    "transparent": true
+  },
+  {
+    "name": "07-lantern-nun",
+    "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: One hooded nun NPC in a dark habit, pale face, little gold cross and warm hand-held lantern, full body standing. Isolated standalone asset, transparent background, ample margins, no other objects, no labels, no UI, no text.",
+    "transparent": true
+  },
+  {
+    "name": "08-ghost",
+    "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: One translucent-looking spectral hooded ghost enemy, pale teal wisps and tiny glowing eyes, full body floating silhouette. Isolated standalone asset, transparent background, ample margins, no other objects, no labels, no UI, no text.",
+    "transparent": true
+  },
+  {
+    "name": "09-zombie",
+    "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: One shambling zombie enemy in torn old gravekeeper clothes with muted green-grey skin, full body left-facing. Isolated standalone asset, transparent background, ample margins, no other objects, no labels, no UI, no text.",
+    "transparent": true
+  },
+  {
+    "name": "10-headstone",
+    "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: One weathered Gothic gravestone with cracked stone, moss and subtle cross ornament, no writing. Isolated standalone asset, transparent background, ample margins, no other objects, no labels, no UI, no text.",
+    "transparent": true
+  },
+  {
+    "name": "11-dead-tree",
+    "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: One leafless twisted dead tree silhouette with wide branching crown, isolated entire tree, near-black deep violet, suitable for background parallax. Isolated standalone asset, transparent background, ample margins, no other objects, no labels, no UI, no text.",
+    "transparent": true
+  },
+  {
+    "name": "12-candelabrum",
+    "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: One wrought iron floor candelabrum with three lit candles, isolated full prop with warm amber flame. Isolated standalone asset, transparent background, ample margins, no other objects, no labels, no UI, no text.",
+    "transparent": true
+  },
+  {
+    "name": "13-drapes",
+    "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: One hanging torn crimson velvet Gothic curtain with a tarnished brass rail and tassels, isolated draped fabric. Isolated standalone asset, transparent background, ample margins, no other objects, no labels, no UI, no text.",
+    "transparent": true
+  },
+  {
+    "name": "14-ground-tiles",
+    "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: One seamless horizontally repeating side-view platform cross-section: flat cracked purple-grey stone pavement on top, a short visible brick foundation underneath. Straight level upper edge, left and right edges match for tiling, no perspective, no background. Isolated standalone asset, transparent background, ample margins, no other objects, no labels, no UI, no text.",
+    "transparent": true
+  },
+  {
+    "name": "15-stone-wall",
+    "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: One seamless repeating Gothic castle stone wall tile sample, weathered plum-grey bricks, straight-on side view, all four edges match for tiling, no frame. Isolated standalone asset, transparent background, ample margins, no other objects, no labels, no UI, no text.",
+    "transparent": true
+  },
+  {
+    "name": "16-arched-door",
+    "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: One freestanding Gothic stone arch containing an old closed wooden door with iron hinges, isolated full architecture piece, straight-on side view. Isolated standalone asset, transparent background, ample margins, no other objects, no labels, no UI, no text.",
+    "transparent": true
+  },
+  {
+    "name": "17-iron-fence",
+    "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: One straight segment of wrought-iron graveyard fence with pointed finials, isolated side view, left and right ends designed to repeat. Isolated standalone asset, transparent background, ample margins, no other objects, no labels, no UI, no text.",
+    "transparent": true
+  },
+  {
+    "name": "18-stone-pillar",
+    "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: One weathered square Gothic stone pillar with carved capital and foot, side-on, isolated full height. Isolated standalone asset, transparent background, ample margins, no other objects, no labels, no UI, no text.",
+    "transparent": true
+  }
+]

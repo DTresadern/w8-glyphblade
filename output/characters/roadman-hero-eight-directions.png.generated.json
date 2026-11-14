@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "image": "output/characters/roadman-hero-eight-directions.png",
+  "image_sha256": "7f1042a50d7d580a87a9679c89a52ba7f875c6bd38152c7ce1ec4aa6b51be439",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "format": "PNG",
+  "created_at": null,
+  "generator": "image_gen.imagegen (built-in)",
+  "prompt": "Use case: stylized-concept. Create a single character turnaround sprite sheet for a gothic RPG, compatible with 32-bit Castlevania and Ragnarok Online inspired pixel art. Original adult male hero: nerdy British roadman, medium-brown skin, large glasses, expressive face, messy voluminous high and wide afro with loose irregular curls, dramatically splayed silhouette, almost cartoonishly tall but not a direct copy of any existing character. Contemporary streetwear: dark hooded jacket, crossbody bag, tapered trousers and trainers, plus subtle scholarly details such as a pocket notebook. Exactly eight separate full-body idle sprites of this SAME character, each once, on a regular 4-column by 2-row grid: front, front-left, left profile, back-left, back, back-right, right profile, front-right. Equal apparent height, consistent hair silhouette, glasses, clothing, proportions and baseline, evenly spaced with generous margins, no overlap, no cropped feet or hair. Deliberate pixel clusters, dark outlines, restrained Gothic palette, no scene, no borders, no lettering or labels, no extra characters. Transparent background.",
+  "prompt_status": "exact",
+  "references": [],
+  "subject": "Nerdy roadman hero with voluminous messy afro",
+  "visual_approach": "Gothic RPG pixel-style eight-direction turnaround",
+  "generation_settings": {
+    "transparent_background": true,
+    "other_settings": null
+  },
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Generator does not expose seed."
+  },
+  "revision_of": null,
+  "post_analysis": {
+    "provenance": "Post-generation subagent visual analysis; not part of the original generation prompt.",
+    "subject": "Slim brown-skinned man with large messy dark hair, square glasses, plum tracksuit, crossbody satchel and trainers.",
+    "composition": "Eight idle views in two rows of four: front, front-left, left, back-left, back, back-right, right, front-right.",
+    "environment": "No scene; alpha samples in surrounding areas are transparent.",
+    "colors": "Muted dark clothing with soft warm highlights.",
+    "materials": "Cloth and leather-like visual appearances.",
+    "lighting": "Soft, muted highlights.",
+    "standout_features": "Slim brown-skinned man with large messy dark hair, square glasses, plum tracksuit, crossbody satchel and trainers.",
+    "important_details": "Feet placement and scale vary slightly between views.",
+    "synopsis": "Slim brown-skinned man with large messy dark hair, square glasses, plum tracksuit, crossbody satchel and trainers.",
+    "defect_analysis": {
+      "findings": [
+        {
+          "issue": "Crossbody strap and bag vary somewhat between views.",
+          "location": "Across views",
+          "confidence": "Medium",
+          "impact": "Low impact."
+        },
+        {
+          "issue": "Scale and foot placement vary slightly",
+          "location": "Across views",
+          "confidence": "medium",
+          "impact": "May require adjustment when building an atlas."
+        }
+      ],
+      "overall": "Static turnaround; not an animation cycle or verified measured frame grid."
+    }
+  }
+}

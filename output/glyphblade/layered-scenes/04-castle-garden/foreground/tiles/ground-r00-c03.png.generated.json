@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/04-castle-garden/foreground/tiles/ground-r00-c03.png",
+  "image_sha256": "8c765b1a4f5eb39a5d10026b030813b851a703af9df774113dbce477fd7703ba",
+  "dimensions": [
+    128,
+    64
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/04-castle-garden.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Crop source at (384,600) size 128x64; padded to 128x64 with transparency.",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

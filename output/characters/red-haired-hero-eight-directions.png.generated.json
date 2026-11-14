@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "image": "output/characters/red-haired-hero-eight-directions.png",
+  "image_sha256": "ef9259b22c01e74a90a433b71a7f1017b9768dc3a6931bf69d0f6b60d7f15a0b",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "format": "PNG",
+  "created_at": null,
+  "generator": "image_gen.imagegen (built-in)",
+  "prompt": "Use case: stylized-concept. Create a single character turnaround sprite sheet for a gothic RPG, Castlevania and Ragnarok Online inspired, richly detailed 32-bit-era pixel art. The same original main character in every view: wild flame-red hair, youthful fantasy adventurer, dark fitted coat with burgundy lining, worn leather boots, silver armor accents, small cross-body satchel, distinctive teal gem and a sheathed slender sword. Show exactly eight separate full-body idle sprites, each appearing ONCE, ordered left to right then top to bottom on a strict 4 columns by 2 rows grid: south, southwest, west, northwest, north, northeast, east, southeast. Exact same design, scale and neutral standing pose in all views, clearly distinguish directions, no overlaps, all feet aligned per row, ample transparent space between figures. Crisp deliberate pixel clusters, controlled dark outlines, muted wine red, charcoal, teal and old silver, straight-on orthographic sprite views, no scenery, no shadows beneath, no borders, no text, no labels, no extra sprites. Transparent background.",
+  "prompt_status": "exact",
+  "references": [],
+  "subject": "Wild red-haired Gothic RPG hero, eight directions",
+  "visual_approach": "32-bit-era inspired pixel-style character turnaround",
+  "generation_settings": {
+    "transparent_background": true,
+    "other_settings": null
+  },
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Generator does not expose a seed parameter."
+  },
+  "revision_of": null,
+  "post_analysis": {
+    "provenance": "Post-generation subagent visual analysis; not part of the original generation prompt.",
+    "subject": "Red-haired Gothic adventurer with a sword and satchel.",
+    "composition": "Eight full-body idle views in a four-column by two-row grid: front, front-left, left, back-left, back, back-right, right, front-right.",
+    "environment": "Transparent background; alpha and white composite checked independently.",
+    "colors": "Red hair and lining, charcoal clothing, brown leather, silver armor and turquoise jewel.",
+    "materials": "Cloth, leather and metal appearances.",
+    "lighting": "Warm red highlights and metallic accents.",
+    "standout_features": "Wild red hair, long coat, cross motifs, shoulder armor and sword.",
+    "important_details": "Views differ slightly in costume detail and pose.",
+    "synopsis": "Character turnaround with one static pose per direction.",
+    "defect_analysis": {
+      "findings": [
+        {
+          "issue": "Minor variation in costume and pose between directions",
+          "location": "Across the grid",
+          "confidence": "high",
+          "impact": "May require cleanup for animation consistency."
+        },
+        {
+          "issue": "Large pixel-styled artwork rather than a uniform low-resolution pixel grid",
+          "location": "Across the grid",
+          "confidence": "high",
+          "impact": "Requires scaling and pixel cleanup for game use."
+        }
+      ],
+      "overall": "All eight directions are visible; no animation frames are included."
+    },
+    "mismatches_or_uncertainties": "The reviewer perceived a dark background; alpha sampling and compositing on white confirmed the surrounding background is transparent."
+  }
+}

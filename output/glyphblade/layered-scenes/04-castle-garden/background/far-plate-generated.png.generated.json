@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/04-castle-garden/background/far-plate-generated.png",
+  "image_sha256": "337023f8cd1fbb1c7fa47f7ca03b2adda5b9667ebcb8641d65b9f1ea854afb76",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "format": "PNG",
+  "created_at": null,
+  "generator": "image_gen.imagegen (built-in)",
+  "prompt": "Use case: precise-object-edit. Create a reconstructed far-background plate for a side scrolling game from the supplied scene. Preserve the scene's setting, side view, palette, 32-bit pixel-art style and distant architecture. Remove all characters, enemies, foreground ground platform, foreground trees, fences, foreground tombstones, candles and foreground pillars; plausibly continue the distant setting behind them. Output a complete opaque wide backdrop only, no text, UI, borders or sprite sheet. This is a background plate that will sit behind separate independently moving transparent props.",
+  "prompt_status": "exact",
+  "references": [
+    {
+      "path": "output/glyphblade/04-castle-garden.png",
+      "role": "edit target and visual style reference"
+    }
+  ],
+  "subject": "04-castle-garden reconstructed background plate",
+  "visual_approach": "Side-view Gothic fantasy 32-bit pixel style",
+  "generation_settings": {
+    "transparent_background": false,
+    "other_settings": null
+  },
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Generator does not expose seed."
+  },
+  "revision_of": "output/glyphblade/04-castle-garden.png",
+  "style_inheritance": "Original scene supplied as reference; no seed available.",
+  "post_analysis": {
+    "provenance": "Post-generation subagent visual analysis; not part of the original generation prompt.",
+    "subject": "Distant castle, bridges, falls and winding river amid violet forest under a pale orange moon.",
+    "composition": "Wide side-view landscape, opaque and flattened.",
+    "environment": "Distant castle, bridges, falls and winding river amid violet forest under a pale orange moon.",
+    "colors": "Violet and plum with warm orange and red accents.",
+    "materials": "Stone architecture and natural forms as depicted.",
+    "lighting": "Dark atmospheric setting with warm highlights.",
+    "standout_features": "Distant castle, bridges, falls and winding river amid violet forest under a pale orange moon.",
+    "important_details": "No visible characters or playable floor.",
+    "synopsis": "Distant castle, bridges, falls and winding river amid violet forest under a pale orange moon.",
+    "defect_analysis": {
+      "findings": [
+        {
+          "issue": "No distinct garden features; foreground forest is baked in and edges do not match for looping.",
+          "location": "Across the plate",
+          "confidence": "high",
+          "impact": "The plate is not a seamless repeating background; interior depth cannot scroll independently."
+        }
+      ],
+      "overall": "Usable as a single reconstructed background plate with limitations."
+    }
+  }
+}

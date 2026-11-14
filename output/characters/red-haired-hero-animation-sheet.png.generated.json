@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "image": "output/characters/red-haired-hero-animation-sheet.png",
+  "image_sha256": "e4d3e9365f42af56ec7fc33257bfa5521ce240eff082c0a6d47b0c6f38dd4e2f",
+  "dimensions": [
+    1448,
+    1086
+  ],
+  "format": "PNG",
+  "created_at": null,
+  "generator": "image_gen.imagegen (built-in)",
+  "prompt": "Use case: stylized-concept. Asset: a strictly aligned sprite sheet of the SAME main character shown in the reference image. Preserve his wild red hair, face, long charcoal gothic coat with burgundy lining, silver shoulder armor, leather boots and belts, teal gem, satchel and sheathed sword. Match the reference's Ragnarok Online meets 32-bit Castlevania pixel-art appearance. Create a SIDE VIEW facing right for every frame. Exactly 12 separate full-body sprites in a precisely regular 4-column by 3-row grid, one figure centered in each equal cell, consistent size and fixed foot baseline, ample clear space between cells, no overlapping, no clipped extremities. Top row: four distinct sequential subtle idle breathing frames. Middle row: four sequential walking cycle frames, alternating left and right legs with passing poses. Bottom row: four sequential running cycle frames, alternating leg extension with energetic coat movement. Each row loops from fourth frame back to first. No labels, letters, borders, floor, shadows or extra characters. Background transparent.",
+  "prompt_status": "exact",
+  "references": [
+    {
+      "path": "output/characters/red-haired-hero-eight-directions.png",
+      "role": "character and style reference"
+    }
+  ],
+  "subject": "Right-facing hero idle, walk and run frames",
+  "visual_approach": "32-bit gothic fantasy pixel-style animation sheet",
+  "generation_settings": {
+    "transparent_background": true,
+    "other_settings": null
+  },
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Generator does not expose a seed parameter."
+  },
+  "revision_of": "output/characters/red-haired-hero-eight-directions.png",
+  "style_inheritance": "Retained red hair, dark coat, burgundy lining, teal accents, armor, satchel, sword and pixel style.",
+  "post_analysis": {
+    "provenance": "Post-generation subagent visual analysis; not part of the original generation prompt.",
+    "subject": "Right-facing red-haired Gothic adventurer in idle, walk and run poses.",
+    "composition": "Four columns by three rows: idle, walk and run from top to bottom.",
+    "environment": "Isolated on transparency.",
+    "colors": "Red-orange hair, charcoal and plum coat, silver armor, brown leather and teal accents.",
+    "materials": "Cloth, leather and metal appearances.",
+    "lighting": "Warm highlights with soft, consistent side lighting.",
+    "standout_features": "Wild hair, long split coat and compact proportions.",
+    "important_details": "Idle poses are very similar; two walk contact poses look alike.",
+    "synopsis": "Twelve right-facing frames on a regular grid.",
+    "defect_analysis": {
+      "findings": [
+        {
+          "issue": "Idle motion may read as jitter",
+          "location": "Top row",
+          "confidence": "high",
+          "impact": "Low to moderate."
+        },
+        {
+          "issue": "Contact poses do not clearly alternate legs",
+          "location": "Walk row, columns 1 and 3",
+          "confidence": "high",
+          "impact": "May prevent a smooth gait."
+        },
+        {
+          "issue": "Pose and clothing differences may cause a jump at the loop",
+          "location": "Run row, especially transition 4 to 1",
+          "confidence": "medium",
+          "impact": "Moderate."
+        },
+        {
+          "issue": "Painterly shading and irregular apparent pixel scale",
+          "location": "Whole sheet",
+          "confidence": "medium",
+          "impact": "Manual pixel cleanup may be needed."
+        }
+      ],
+      "overall": "Side-facing concept frames require animation refinement; no obvious detached objects."
+    }
+  }
+}

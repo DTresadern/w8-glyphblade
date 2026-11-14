@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/03-crypt/foreground/source-ground-strip.png",
+  "image_sha256": "6455731f6250f635dcafbfd01d62022455990eddf5fc8e420df2f4ba2d4c374d",
+  "dimensions": [
+    2172,
+    164
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/03-crypt.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Exact crop (0,560,2172,724); may include original lighting and scene details.",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/01-graveyard/background/back-props-layout.png",
+  "image_sha256": "770a6d7529921888b5a7eeb8ce1b55d74e59d1d74d0ff01f601676ce6aedaf61",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/01-graveyard.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Composite of separately supplied prop derivatives; positions in manifest. Source reference is scene for visual placement only.",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

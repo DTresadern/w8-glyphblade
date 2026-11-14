@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/04-castle-garden/foreground/props/dead-tree.png",
+  "image_sha256": "1eca3d8c0d1914fc538a71c8ecfd5ce7043ed2a5af5d0178d6cafdaaf9ec5f8d",
+  "dimensions": [
+    422,
+    320
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/11-dead-tree.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Trim to alpha >=24 bounding box (138, 36, 1399, 992), retain original alpha within box, resize nearest-neighbor to (422, 320).",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/04-castle-garden/foreground/source-ground-strip.png",
+  "image_sha256": "068cabc8e70b530e4321d45c3366d24604d5b312a1488d204b8fadfc31c10f0d",
+  "dimensions": [
+    2172,
+    124
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/04-castle-garden.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Exact crop (0,600,2172,724); may include original lighting and scene details.",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

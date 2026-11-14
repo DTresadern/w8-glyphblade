@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/03-crypt/characters/skeleton.png",
+  "image_sha256": "6560d96b88604c4a959cd1a30e7200f9bf8cbfacdeb97bb2ca169467015e10cd",
+  "dimensions": [
+    164,
+    155
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/06-skeleton-warrior.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Trim to alpha >=24 bounding box (275, 124, 1127, 931), retain original alpha within box, resize nearest-neighbor to (164, 155).",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

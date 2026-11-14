@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/07-lantern-nun.png",
+  "image_sha256": "662ec52a16be04a36b0ea9eb7cf5ad220ba34b4cbaf3bf6f72c682d6f5af81d0",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "created_at": null,
+  "generator": "image_gen.imagegen (built-in)",
+  "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: One hooded nun NPC in a dark habit, pale face, little gold cross and warm hand-held lantern, full body standing. Isolated standalone asset, transparent background, ample margins, no other objects, no labels, no UI, no text.",
+  "prompt_status": "exact",
+  "references": [
+    {
+      "path": "references/glyphblade/user-screenshot-rotated.png",
+      "role": "user-supplied visual reference"
+    }
+  ],
+  "subject": "07-lantern-nun",
+  "visual_approach": "Side-scrolling Gothic fantasy, Ragnarok and Castlevania inspired pixel style",
+  "generation_settings": {
+    "transparent_background": true,
+    "other_settings": null
+  },
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Generator does not expose seed."
+  },
+  "revision_of": null,
+  "post_analysis": {
+    "provenance": "Post-generation subagent visual analysis; not part of the original generation prompt.",
+    "subject": "Dark violet hooded nun with cross and lantern",
+    "composition": "Isolated standalone subject.",
+    "environment": "Transparent surrounding pixels.",
+    "colors": "Purple, charcoal, muted crimson and warm amber.",
+    "materials": "Stone, cloth and metal appearances vary by subject.",
+    "lighting": "Atmospheric muted shading with warm highlights.",
+    "standout_features": "Dark violet hooded nun with cross and lantern",
+    "important_details": "Static single pose.",
+    "synopsis": "Dark violet hooded nun with cross and lantern",
+    "defect_analysis": {
+      "findings": [
+        {
+          "issue": "Static single pose.",
+          "location": "Whole image",
+          "confidence": "high",
+          "impact": "Relevant to game integration."
+        }
+      ],
+      "overall": "Detailed pixel-style concept art; scale varies and sprites are static."
+    },
+    "mismatches_or_uncertainties": "No obvious UI or text found. Some transparent assets have faint stray alpha pixels."
+  }
+}

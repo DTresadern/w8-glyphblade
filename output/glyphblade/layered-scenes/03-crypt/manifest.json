@@ -1,0 +1,78 @@
+{
+  "source": "source/mockup.png",
+  "canvas_pixels": [
+    2172,
+    724
+  ],
+  "floor_top_y": 560,
+  "tile_size": [
+    128,
+    64
+  ],
+  "grid_origin": [
+    0,
+    560
+  ],
+  "source_tile_rows": 3,
+  "source_tile_columns": 17,
+  "parallax_suggested_factors": {
+    "far_plate": 0.15,
+    "back": 0.35,
+    "mid": 0.65,
+    "near": 0.85,
+    "ground": 1.0
+  },
+  "layers": {
+    "back": {
+      "file": "background/back-props-layout.png",
+      "placements": [
+        {
+          "asset": "arch",
+          "x": 100,
+          "bottom_y": 560
+        },
+        {
+          "asset": "arch",
+          "x": 1250,
+          "bottom_y": 560
+        }
+      ]
+    },
+    "mid": {
+      "file": "background/mid-props-layout.png",
+      "placements": [
+        {
+          "asset": "pillar",
+          "x": 500,
+          "bottom_y": 560
+        },
+        {
+          "asset": "pillar",
+          "x": 1550,
+          "bottom_y": 560
+        },
+        {
+          "asset": "door",
+          "x": 1830,
+          "bottom_y": 560
+        }
+      ]
+    },
+    "near": {
+      "file": "background/near-props-layout.png",
+      "placements": [
+        {
+          "asset": "candelabrum",
+          "x": 800,
+          "bottom_y": 560
+        },
+        {
+          "asset": "crate-barrel",
+          "x": 1000,
+          "bottom_y": 560
+        }
+      ]
+    }
+  },
+  "note": "Layer layouts are new compositions using existing separate props, not exact segmentation of the flattened image. Ground tile pieces preserve adjacency only in source order; repeating is not seamless. Rightmost and bottommost tiles may have transparent padding. Original and reconstructed scales differ; tune props per game."
+}

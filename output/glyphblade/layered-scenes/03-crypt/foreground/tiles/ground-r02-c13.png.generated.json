@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/03-crypt/foreground/tiles/ground-r02-c13.png",
+  "image_sha256": "f56196d4a35b3de0f45351a81e9c0092c8ec5b4027a787ed56d1ac072a247c6f",
+  "dimensions": [
+    128,
+    64
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/03-crypt.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Crop source at (1664,688) size 128x36; padded to 128x64 with transparency.",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

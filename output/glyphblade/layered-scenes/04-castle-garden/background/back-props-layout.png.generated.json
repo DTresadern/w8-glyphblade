@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/04-castle-garden/background/back-props-layout.png",
+  "image_sha256": "a9faf0023f4858e9df51775095f96b99fd466cee7089442ff4a2851824908c9d",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/04-castle-garden.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Composite of separately supplied prop derivatives; positions in manifest. Source reference is scene for visual placement only.",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

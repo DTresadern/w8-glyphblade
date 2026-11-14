@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/03-crypt/background/mid-props-layout.png",
+  "image_sha256": "8a3a3b57cd3422500c83455dc5baad9f1aa2c1d50690da829c2fefff3cc6180b",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/03-crypt.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Composite of separately supplied prop derivatives; positions in manifest. Source reference is scene for visual placement only.",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

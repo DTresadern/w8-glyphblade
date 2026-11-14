@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/01-graveyard/characters/hunter.png",
+  "image_sha256": "ba5ae6e084e5d22fc929bf82743a7835bc6a6c0b1f40a1f3c0da388ecb456bcb",
+  "dimensions": [
+    155,
+    155
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/05-hunter.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Trim to alpha >=24 bounding box (99, 75, 1161, 1138), retain original alpha within box, resize nearest-neighbor to (155, 155).",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

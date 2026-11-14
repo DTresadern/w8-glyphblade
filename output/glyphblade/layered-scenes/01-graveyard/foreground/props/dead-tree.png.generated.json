@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/01-graveyard/foreground/props/dead-tree.png",
+  "image_sha256": "3c3e50c4f60cdc5e12a4bb2f064a5730884bbff46b55746e4c7b04083756a7b2",
+  "dimensions": [
+    396,
+    300
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/11-dead-tree.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Trim to alpha >=24 bounding box (138, 36, 1399, 992), retain original alpha within box, resize nearest-neighbor to (396, 300).",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/01-graveyard/foreground/props/candelabrum.png",
+  "image_sha256": "a9cbaf4403c8d3c7f53ba41668642d85e69399cc274e4b57af254430f336b504",
+  "dimensions": [
+    63,
+    165
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/12-candelabrum.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Trim to alpha >=24 bounding box (251, 95, 768, 1439), retain original alpha within box, resize nearest-neighbor to (63, 165).",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

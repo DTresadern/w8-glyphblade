@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/04-castle-garden/background/sections/far-00.png",
+  "image_sha256": "808887bbf1706763a205fc139e2861086eb26a671aff8e519d89aad560292726",
+  "dimensions": [
+    512,
+    724
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic cropping",
+  "prompt": null,
+  "prompt_status": "deterministic source crop",
+  "references": [
+    {
+      "path": "output/glyphblade/layered-scenes/04-castle-garden/background/far-plate.png",
+      "role": "source plate"
+    }
+  ],
+  "operation": "Crop x=0 through 512. Place in numeric order without gaps."
+}

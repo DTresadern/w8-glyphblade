@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/04-castle-garden/background/far-plate.png",
+  "image_sha256": "1d94af300324ce0e660a52a35e10fa91bc058339fb0840afe77976807ddf80bf",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "deterministic resize and center crop of generated plate",
+  "references": [
+    {
+      "path": "output/glyphblade/layered-scenes/04-castle-garden/background/far-plate-generated.png",
+      "role": "generated source"
+    }
+  ],
+  "operation": "Fit to (2172, 724) with nearest-neighbor resizing and centered cropping",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

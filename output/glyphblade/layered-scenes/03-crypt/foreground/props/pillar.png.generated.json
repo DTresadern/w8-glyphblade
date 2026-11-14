@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/03-crypt/foreground/props/pillar.png",
+  "image_sha256": "538f337e3883f0bd4bf90d607583bc4a6960caae942f6f421b97359a58cb259d",
+  "dimensions": [
+    100,
+    330
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/18-stone-pillar.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Trim to alpha >=24 bounding box (297, 72, 724, 1488), retain original alpha within box, resize nearest-neighbor to (100, 330).",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

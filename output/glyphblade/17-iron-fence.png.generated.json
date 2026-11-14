@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/17-iron-fence.png",
+  "image_sha256": "fe05d3e5ec640fb73fb6cffa58a467578ad770bc8142b641e92196e80297293e",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "format": "PNG",
+  "created_at": null,
+  "generator": "image_gen.imagegen (built-in)",
+  "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: One straight segment of wrought-iron graveyard fence with pointed finials, isolated side view, left and right ends designed to repeat. Isolated standalone asset, transparent background, ample margins, no other objects, no labels, no UI, no text.",
+  "prompt_status": "exact",
+  "references": [
+    {
+      "path": "references/glyphblade/user-screenshot-rotated.png",
+      "role": "user-supplied visual reference"
+    }
+  ],
+  "subject": "17-iron-fence",
+  "visual_approach": "Side-scrolling Gothic fantasy, Ragnarok and Castlevania inspired pixel style",
+  "generation_settings": {
+    "transparent_background": true,
+    "other_settings": null
+  },
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Generator does not expose seed."
+  },
+  "revision_of": null,
+  "post_analysis": {
+    "provenance": "Post-generation subagent visual analysis; not part of the original generation prompt.",
+    "subject": "Pointed iron fence atop stone base",
+    "composition": "Isolated standalone subject.",
+    "environment": "Transparent surrounding pixels.",
+    "colors": "Purple, charcoal, muted crimson and warm amber.",
+    "materials": "Stone, cloth and metal appearances vary by subject.",
+    "lighting": "Atmospheric muted shading with warm highlights.",
+    "standout_features": "Pointed iron fence atop stone base",
+    "important_details": "Posts at endpoints; repeating seam not established.",
+    "synopsis": "Pointed iron fence atop stone base",
+    "defect_analysis": {
+      "findings": [
+        {
+          "issue": "Posts at endpoints; repeating seam not established.",
+          "location": "Whole image",
+          "confidence": "high",
+          "impact": "Relevant to game integration."
+        }
+      ],
+      "overall": "Detailed pixel-style concept art; scale varies and sprites are static."
+    },
+    "mismatches_or_uncertainties": "No obvious UI or text found. Some transparent assets have faint stray alpha pixels."
+  }
+}

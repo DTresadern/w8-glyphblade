@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "image": "output/sprites/17-short-sword.png",
+  "image_sha256": "9e98d294cf62588712ddcf8f2134a302ff09559c5a193111d0abc551718813d3",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "format": "PNG",
+  "created_at": null,
+  "generator": "image_gen.imagegen (built-in)",
+  "prompt": "Use case: stylized-concept. Create one original standalone game sprite: an ornate silver short sword with a dark red grip and a crescent-shaped guard. Ragnarok-inspired expressive fantasy forms meet ornate gothic side-scroller pixel art. Single isolated subject, three-quarter view, consistent dark plum outlines, muted burgundy, bone, tarnished gold and teal palette, deliberate crisp pixel clusters, readable silhouette, no lettering, no frame, no ground, transparent background.",
+  "prompt_status": "exact",
+  "references": [],
+  "subject": "short-sword",
+  "visual_approach": "Gothic fantasy pixel-style isolated asset",
+  "generation_settings": {
+    "transparent_background": true,
+    "other_settings": null
+  },
+  "creative_seed": {
+    "value": "58e99235d027f20f",
+    "source": "creative_seed.py visual profile; design provocation",
+    "used_for_generation": false,
+    "note": "The image generator does not expose a seed parameter."
+  },
+  "revision_of": null,
+  "post_analysis": {
+    "provenance": "Post-generation subagent visual analysis; not part of the original generation prompt.",
+    "subject": "Diagonal silver sword with gold crescent guard and crimson grip",
+    "composition": "Single isolated subject.",
+    "environment": "Transparent surrounding pixels; transparency verified separately.",
+    "colors": "Predominantly burgundy, teal, bone and gold, varying by subject.",
+    "materials": "Materials are depicted appearances.",
+    "lighting": "Stylized highlights and shaded forms.",
+    "standout_features": "Diagonal silver sword with gold crescent guard and crimson grip",
+    "important_details": "Tip approaches lower-left edge",
+    "synopsis": "Diagonal silver sword with gold crescent guard and crimson grip",
+    "defect_analysis": {
+      "findings": [
+        {
+          "issue": "Tip approaches lower-left edge",
+          "location": "See issue description",
+          "confidence": "high",
+          "impact": "Moderate for small sprites or cropping"
+        }
+      ],
+      "overall": "Apparent pixel size varies and soft shading limits strict small-grid pixel-art use."
+    },
+    "mismatches_or_uncertainties": "Initial viewer-based concerns about dark backgrounds were not corroborated by alpha checks; the bat was also composited over white."
+  }
+}

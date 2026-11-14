@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/03-crypt.png",
+  "image_sha256": "4107e50138a7de9440ddf42d259b1f97393f36a65e72cfe774b7baa8f6b56edf",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "format": "PNG",
+  "created_at": null,
+  "generator": "image_gen.imagegen (built-in)",
+  "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: A subterranean ossuary and crypt: carved stone pillars, arched tomb niches, iron gates, candles, coffin and hanging roots. A white-haired hunter confronts a shambling zombie and skeleton in a side-scrolling platform environment. Wide horizontal side-view gameplay scene concept, layered parallax composition, uninterrupted walkable ground near bottom, no UI, no overlays, no dialogue, no words, no logos, no borders.",
+  "prompt_status": "exact",
+  "references": [
+    {
+      "path": "references/glyphblade/user-screenshot-rotated.png",
+      "role": "user-supplied visual reference"
+    }
+  ],
+  "subject": "03-crypt",
+  "visual_approach": "Side-scrolling Gothic fantasy, Ragnarok and Castlevania inspired pixel style",
+  "generation_settings": {
+    "transparent_background": false,
+    "other_settings": null
+  },
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Generator does not expose seed."
+  },
+  "revision_of": null,
+  "post_analysis": {
+    "provenance": "Post-generation subagent visual analysis; not part of the original generation prompt.",
+    "subject": "Purple stone crypt, coffins, arches, hunter and skeleton enemies",
+    "composition": "Wide side-view scene.",
+    "environment": "Opaque environment.",
+    "colors": "Purple, charcoal, muted crimson and warm amber.",
+    "materials": "Stone, cloth and metal appearances vary by subject.",
+    "lighting": "Atmospheric muted shading with warm highlights.",
+    "standout_features": "Purple stone crypt, coffins, arches, hunter and skeleton enemies",
+    "important_details": "Wide opaque mockup; not layered.",
+    "synopsis": "Purple stone crypt, coffins, arches, hunter and skeleton enemies",
+    "defect_analysis": {
+      "findings": [
+        {
+          "issue": "Wide opaque mockup; not layered.",
+          "location": "Whole image",
+          "confidence": "high",
+          "impact": "Relevant to game integration."
+        }
+      ],
+      "overall": "Detailed pixel-style concept art; scale varies and sprites are static."
+    },
+    "mismatches_or_uncertainties": "No obvious UI or text found. Some transparent assets have faint stray alpha pixels."
+  }
+}

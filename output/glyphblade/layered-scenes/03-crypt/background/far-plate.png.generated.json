@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/03-crypt/background/far-plate.png",
+  "image_sha256": "f0095634d80dad4efbe337115fa40759bf986f6a15fe7cf3b2ed4f8e7601adb1",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "deterministic resize and center crop of generated plate",
+  "references": [
+    {
+      "path": "output/glyphblade/layered-scenes/03-crypt/background/far-plate-generated.png",
+      "role": "generated source"
+    }
+  ],
+  "operation": "Fit to (2172, 724) with nearest-neighbor resizing and centered cropping",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

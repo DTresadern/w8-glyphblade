@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/11-dead-tree.png",
+  "image_sha256": "1f5033985644854f0b7e198bdbcaab724953fd116aabf201764b12869dcac736",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "format": "PNG",
+  "created_at": null,
+  "generator": "image_gen.imagegen (built-in)",
+  "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: One leafless twisted dead tree silhouette with wide branching crown, isolated entire tree, near-black deep violet, suitable for background parallax. Isolated standalone asset, transparent background, ample margins, no other objects, no labels, no UI, no text.",
+  "prompt_status": "exact",
+  "references": [
+    {
+      "path": "references/glyphblade/user-screenshot-rotated.png",
+      "role": "user-supplied visual reference"
+    }
+  ],
+  "subject": "11-dead-tree",
+  "visual_approach": "Side-scrolling Gothic fantasy, Ragnarok and Castlevania inspired pixel style",
+  "generation_settings": {
+    "transparent_background": true,
+    "other_settings": null
+  },
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Generator does not expose seed."
+  },
+  "revision_of": null,
+  "post_analysis": {
+    "provenance": "Post-generation subagent visual analysis; not part of the original generation prompt.",
+    "subject": "Gnarled leafless purple-black tree and exposed roots",
+    "composition": "Isolated standalone subject.",
+    "environment": "Transparent surrounding pixels.",
+    "colors": "Purple, charcoal, muted crimson and warm amber.",
+    "materials": "Stone, cloth and metal appearances vary by subject.",
+    "lighting": "Atmospheric muted shading with warm highlights.",
+    "standout_features": "Gnarled leafless purple-black tree and exposed roots",
+    "important_details": "Shaded tree rather than a pure silhouette.",
+    "synopsis": "Gnarled leafless purple-black tree and exposed roots",
+    "defect_analysis": {
+      "findings": [
+        {
+          "issue": "Shaded tree rather than a pure silhouette.",
+          "location": "Whole image",
+          "confidence": "high",
+          "impact": "Relevant to game integration."
+        }
+      ],
+      "overall": "Detailed pixel-style concept art; scale varies and sprites are static."
+    },
+    "mismatches_or_uncertainties": "No obvious UI or text found. Some transparent assets have faint stray alpha pixels."
+  }
+}

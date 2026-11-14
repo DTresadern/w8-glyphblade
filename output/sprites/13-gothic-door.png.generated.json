@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "image": "output/sprites/13-gothic-door.png",
+  "image_sha256": "6902eaff5f3b6f66892a86193957dd7114ef7459d2040ca4e1072ba471cde959",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG",
+  "created_at": null,
+  "generator": "image_gen.imagegen (built-in)",
+  "prompt": "Use case: stylized-concept. Create one original standalone game sprite: a narrow gothic wooden door with iron hinges and a little arched window. Ragnarok-inspired expressive fantasy forms meet ornate gothic side-scroller pixel art. Single isolated subject, three-quarter view, consistent dark plum outlines, muted burgundy, bone, tarnished gold and teal palette, deliberate crisp pixel clusters, readable silhouette, no lettering, no frame, no ground, transparent background.",
+  "prompt_status": "exact",
+  "references": [],
+  "subject": "gothic-door",
+  "visual_approach": "Gothic fantasy pixel-style isolated asset",
+  "generation_settings": {
+    "transparent_background": true,
+    "other_settings": null
+  },
+  "creative_seed": {
+    "value": "58e99235d027f20f",
+    "source": "creative_seed.py visual profile; design provocation",
+    "used_for_generation": false,
+    "note": "The image generator does not expose a seed parameter."
+  },
+  "revision_of": null,
+  "post_analysis": {
+    "provenance": "Post-generation subagent visual analysis; not part of the original generation prompt.",
+    "subject": "Crimson wooden door with stained glass, stone arch and carved details",
+    "composition": "Single isolated subject.",
+    "environment": "Transparent surrounding pixels; transparency verified separately.",
+    "colors": "Predominantly burgundy, teal, bone and gold, varying by subject.",
+    "materials": "Materials are depicted appearances.",
+    "lighting": "Stylized highlights and shaded forms.",
+    "standout_features": "Crimson wooden door with stained glass, stone arch and carved details",
+    "important_details": "Cross and base approach frame",
+    "synopsis": "Crimson wooden door with stained glass, stone arch and carved details",
+    "defect_analysis": {
+      "findings": [
+        {
+          "issue": "Cross and base approach frame",
+          "location": "See issue description",
+          "confidence": "high",
+          "impact": "Moderate for small sprites or cropping"
+        }
+      ],
+      "overall": "Apparent pixel size varies and soft shading limits strict small-grid pixel-art use."
+    },
+    "mismatches_or_uncertainties": "Initial viewer-based concerns about dark backgrounds were not corroborated by alpha checks; the bat was also composited over white."
+  }
+}

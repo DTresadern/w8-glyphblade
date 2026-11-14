@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/01-graveyard/background/far-plate.png",
+  "image_sha256": "3b6246b4226a6ad7f71c4918e0d62c7ace6a1a0fb5f0a790b2058748d43b30a4",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "deterministic resize and center crop of generated plate",
+  "references": [
+    {
+      "path": "output/glyphblade/layered-scenes/01-graveyard/background/far-plate-generated.png",
+      "role": "generated source"
+    }
+  ],
+  "operation": "Fit to (2172, 724) with nearest-neighbor resizing and centered cropping",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

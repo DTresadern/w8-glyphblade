@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/02-chapel/background/far-plate-generated.png",
+  "image_sha256": "ec3cd2e1fc39a95d70f9b56d2d2727bc809488b75a164390d5fa0983f10ea916",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "format": "PNG",
+  "created_at": null,
+  "generator": "image_gen.imagegen (built-in)",
+  "prompt": "Use case: precise-object-edit. Create a reconstructed far-background plate for a side scrolling game from the supplied scene. Preserve the scene's setting, side view, palette, 32-bit pixel-art style and distant architecture. Remove all characters, enemies, foreground ground platform, foreground trees, fences, foreground tombstones, candles and foreground pillars; plausibly continue the distant setting behind them. Output a complete opaque wide backdrop only, no text, UI, borders or sprite sheet. This is a background plate that will sit behind separate independently moving transparent props.",
+  "prompt_status": "exact",
+  "references": [
+    {
+      "path": "output/glyphblade/02-chapel.png",
+      "role": "edit target and visual style reference"
+    }
+  ],
+  "subject": "02-chapel reconstructed background plate",
+  "visual_approach": "Side-view Gothic fantasy 32-bit pixel style",
+  "generation_settings": {
+    "transparent_background": false,
+    "other_settings": null
+  },
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Generator does not expose seed."
+  },
+  "revision_of": "output/glyphblade/02-chapel.png",
+  "style_inheritance": "Original scene supplied as reference; no seed available.",
+  "post_analysis": {
+    "provenance": "Post-generation subagent visual analysis; not part of the original generation prompt.",
+    "subject": "Exterior fantasy cathedral above clouds with aqueducts, a rose window and a warm moon.",
+    "composition": "Wide side-view landscape, opaque and flattened.",
+    "environment": "Exterior fantasy cathedral above clouds with aqueducts, a rose window and a warm moon.",
+    "colors": "Violet and plum with warm orange and red accents.",
+    "materials": "Stone architecture and natural forms as depicted.",
+    "lighting": "Dark atmospheric setting with warm highlights.",
+    "standout_features": "Exterior fantasy cathedral above clouds with aqueducts, a rose window and a warm moon.",
+    "important_details": "No visible characters or playable floor.",
+    "synopsis": "Exterior fantasy cathedral above clouds with aqueducts, a rose window and a warm moon.",
+    "defect_analysis": {
+      "findings": [
+        {
+          "issue": "Exterior rather than chapel interior; edges do not match for looping.",
+          "location": "Across the plate",
+          "confidence": "high",
+          "impact": "The plate is not a seamless repeating background; interior depth cannot scroll independently."
+        }
+      ],
+      "overall": "Usable as a single reconstructed background plate with limitations."
+    }
+  }
+}

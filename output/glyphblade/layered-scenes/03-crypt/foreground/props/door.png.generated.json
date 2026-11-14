@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/03-crypt/foreground/props/door.png",
+  "image_sha256": "96784993e3dd4c52766579c77fbcfe5b0c7794a0ff88a80e124afbc34c830133",
+  "dimensions": [
+    201,
+    270
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/16-arched-door.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Trim to alpha >=24 bounding box (401, 10, 1135, 998), retain original alpha within box, resize nearest-neighbor to (201, 270).",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

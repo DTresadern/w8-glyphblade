@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/01-graveyard/foreground/tiles/ground-r00-c03.png",
+  "image_sha256": "751faac2843a4c28fb0f360f216939fe2807629cd0e7e3f27bf94c1a3e5b3039",
+  "dimensions": [
+    128,
+    64
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/01-graveyard.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Crop source at (384,600) size 128x64; padded to 128x64 with transparency.",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

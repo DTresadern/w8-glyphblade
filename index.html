@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12101a">
+  <link rel="icon" href="data:,">
+  <title>Glyphblade · World explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Glyphblade world explorer"><span class="brand-mark">✦</span><span><strong>GLYPHBLADE</strong><small>WORLD EXPLORER</small></span></a>
+      <a class="download" href="https://github.com/DTresadern/w8-glyphblade/releases/latest/download/w8-glyphblade-assets.zip">↓ <span>DOWNLOAD ASSETS</span></a>
+      <div class="top-meta"><span class="live-dot"></span> INTERACTIVE PROTOTYPE <span class="slash">/</span> <span>01 — 04</span></div>
+    </header>
+    <section class="intro" id="top">
+      <div><div class="eyebrow"><span class="diamond">◆</span> THE WORLD BEYOND THE GATE</div><h1>Walk the <em>forgotten.</em></h1><p>Four places touched by the blood moon. Pick a location and explore its depths.</p></div>
+      <div class="intro-aside"><span class="aside-icon">✧</span><span>AN INTERACTIVE<br><b>WORLD STUDY</b></span></div>
+    </section>
+    <section class="explorer" aria-label="Level explorer">
+      <div class="explorer-top"><div><span class="section-number">01 / LOCATIONS</span><h2>Choose your path</h2></div><div class="location-count">FOUR PLACES <span>✦</span> ONE WORLD</div></div>
+      <div class="tabs" role="tablist" aria-label="Select a level">
+        <button class="tab active" role="tab" aria-selected="true" data-scene="graveyard"><span>01</span><b>Graveyard</b><small>THE OUTER GROUNDS</small></button>
+        <button class="tab" role="tab" aria-selected="false" data-scene="chapel"><span>02</span><b>Chapel</b><small>THE HOLLOW SANCTUARY</small></button>
+        <button class="tab" role="tab" aria-selected="false" data-scene="crypt"><span>03</span><b>Crypt</b><small>THE LOWER VAULTS</small></button>
+        <button class="tab" role="tab" aria-selected="false" data-scene="garden"><span>04</span><b>Castle Garden</b><small>THE FORGOTTEN COURT</small></button>
+      </div>
+      <div class="viewport-wrap">
+        <div class="viewport-top"><span><i></i> <span id="scene-kicker">THE OUTER GROUNDS</span></span><span id="scene-number">01 / 04</span></div>
+        <div class="canvas-frame" id="canvas-frame"><canvas id="world" width="1440" height="720" aria-label="Side-scrolling level preview"></canvas><div class="loading" id="loading">ENTERING THE WORLD <span>✦</span></div><div class="scene-label"><span id="scene-index">I</span><div><small>NOW EXPLORING</small><strong id="scene-title">The Graveyard</strong></div></div><div class="canvas-hint">HOLD <kbd>←</kbd> <kbd>→</kbd> TO EXPLORE</div></div>
+        <div class="controls"><div class="position"><span>JOURNEY</span><div class="track"><div id="progress"></div></div><b id="distance">00%</b></div><div class="movement"><span>MOVE THROUGH THE WORLD</span><div class="arrow-buttons"><button id="left" aria-label="Move left">←</button><button id="right" aria-label="Move right">→</button></div></div></div>
+      </div>
+      <div class="scene-note"><span class="note-mark">✳</span><p id="scene-description">Beyond the iron gates, the dead keep watch beneath a blood-red moon.</p><span class="note-end">✦</span></div>
+    </section>
+    <footer><span>GLYPHBLADE <b>✦</b> WORLD EXPLORER</span><span>AN ART &amp; LEVEL DESIGN PROTOTYPE</span></footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/01-graveyard/background/sections/far-01.png",
+  "image_sha256": "8f8ee0bc7ea25e580a20d9081d0266eea0c1b728794c81f5720529c9e1e9afd5",
+  "dimensions": [
+    512,
+    724
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic cropping",
+  "prompt": null,
+  "prompt_status": "deterministic source crop",
+  "references": [
+    {
+      "path": "output/glyphblade/layered-scenes/01-graveyard/background/far-plate.png",
+      "role": "source plate"
+    }
+  ],
+  "operation": "Crop x=512 through 1024. Place in numeric order without gaps."
+}

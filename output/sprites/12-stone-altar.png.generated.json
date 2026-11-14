@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "image": "output/sprites/12-stone-altar.png",
+  "image_sha256": "f7796ca81f3068628157fa4aebe058724be2bcc4683806274306cadc737558de",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "format": "PNG",
+  "created_at": null,
+  "generator": "image_gen.imagegen (built-in)",
+  "prompt": "Use case: stylized-concept. Create one original standalone game sprite: a weathered stone chapel altar with a folded burgundy cloth and a tiny unlit candle. Ragnarok-inspired expressive fantasy forms meet ornate gothic side-scroller pixel art. Single isolated subject, three-quarter view, consistent dark plum outlines, muted burgundy, bone, tarnished gold and teal palette, deliberate crisp pixel clusters, readable silhouette, no lettering, no frame, no ground, transparent background.",
+  "prompt_status": "exact",
+  "references": [],
+  "subject": "stone-altar",
+  "visual_approach": "Gothic fantasy pixel-style isolated asset",
+  "generation_settings": {
+    "transparent_background": true,
+    "other_settings": null
+  },
+  "creative_seed": {
+    "value": "58e99235d027f20f",
+    "source": "creative_seed.py visual profile; design provocation",
+    "used_for_generation": false,
+    "note": "The image generator does not expose a seed parameter."
+  },
+  "revision_of": null,
+  "post_analysis": {
+    "provenance": "Post-generation subagent visual analysis; not part of the original generation prompt.",
+    "subject": "Stone Gothic altar with teal panels, carvings, red cloth and candle",
+    "composition": "Single isolated subject.",
+    "environment": "Transparent surrounding pixels; transparency verified separately.",
+    "colors": "Predominantly burgundy, teal, bone and gold, varying by subject.",
+    "materials": "Materials are depicted appearances.",
+    "lighting": "Stylized highlights and shaded forms.",
+    "standout_features": "Stone Gothic altar with teal panels, carvings, red cloth and candle",
+    "important_details": "Fine carvings may disappear at small sizes",
+    "synopsis": "Stone Gothic altar with teal panels, carvings, red cloth and candle",
+    "defect_analysis": {
+      "findings": [
+        {
+          "issue": "Fine carvings may disappear at small sizes",
+          "location": "See issue description",
+          "confidence": "high",
+          "impact": "Moderate for small sprites or cropping"
+        }
+      ],
+      "overall": "Apparent pixel size varies and soft shading limits strict small-grid pixel-art use."
+    },
+    "mismatches_or_uncertainties": "Initial viewer-based concerns about dark backgrounds were not corroborated by alpha checks; the bat was also composited over white."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/02-chapel/background/back-props-layout.png",
+  "image_sha256": "d9754560ea4e8027ea7da7f03f3daa9da7e716242156a4f6e8063891d82492ac",
+  "dimensions": [
+    1870,
+    841
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/02-chapel.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Composite of separately supplied prop derivatives; positions in manifest. Source reference is scene for visual placement only.",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

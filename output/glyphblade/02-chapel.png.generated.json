@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/02-chapel.png",
+  "image_sha256": "7198a952eccc3fb7416895fba7bf768f68e6b5ba4158d9b6d6e180e32c7e4a36",
+  "dimensions": [
+    1870,
+    841
+  ],
+  "format": "PNG",
+  "created_at": null,
+  "generator": "image_gen.imagegen (built-in)",
+  "prompt": "Use case: stylized-concept. Input image: user screenshot, visual reference for the setting, characters and composition, not for UI. Original artwork for a side-scrolling gothic fantasy game: Ragnarok Online character charm and 32-bit Castlevania pixel-art atmosphere; restrained plum, charcoal, bone, crimson and amber palette; deliberate pixel clusters, clear silhouettes, rich but readable shading. Subject: The ruined interior of a Gothic castle chapel: towering stained glass, stone arches, torn red drapes, crooked candelabra, cracked tiled floor and low mist. A white-haired hunter faces a spectral ghost near an altar. Wide horizontal side-view gameplay scene concept, layered parallax composition, uninterrupted walkable ground near bottom, no UI, no overlays, no dialogue, no words, no logos, no borders.",
+  "prompt_status": "exact",
+  "references": [
+    {
+      "path": "references/glyphblade/user-screenshot-rotated.png",
+      "role": "user-supplied visual reference"
+    }
+  ],
+  "subject": "02-chapel",
+  "visual_approach": "Side-scrolling Gothic fantasy, Ragnarok and Castlevania inspired pixel style",
+  "generation_settings": {
+    "transparent_background": false,
+    "other_settings": null
+  },
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Generator does not expose seed."
+  },
+  "revision_of": null,
+  "post_analysis": {
+    "provenance": "Post-generation subagent visual analysis; not part of the original generation prompt.",
+    "subject": "Vaulted chapel, red drapes, altar, stained glass, hunter and ghost",
+    "composition": "Wide side-view scene.",
+    "environment": "Opaque environment.",
+    "colors": "Purple, charcoal, muted crimson and warm amber.",
+    "materials": "Stone, cloth and metal appearances vary by subject.",
+    "lighting": "Atmospheric muted shading with warm highlights.",
+    "standout_features": "Vaulted chapel, red drapes, altar, stained glass, hunter and ghost",
+    "important_details": "Wide opaque mockup; not layered.",
+    "synopsis": "Vaulted chapel, red drapes, altar, stained glass, hunter and ghost",
+    "defect_analysis": {
+      "findings": [
+        {
+          "issue": "Wide opaque mockup; not layered.",
+          "location": "Whole image",
+          "confidence": "high",
+          "impact": "Relevant to game integration."
+        }
+      ],
+      "overall": "Detailed pixel-style concept art; scale varies and sprites are static."
+    },
+    "mismatches_or_uncertainties": "No obvious UI or text found. Some transparent assets have faint stray alpha pixels."
+  }
+}

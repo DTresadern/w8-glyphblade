@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/03-crypt/background/sections/far-02.png",
+  "image_sha256": "2f40da946e663619e8a9f1812d73450eb2ea6533e5530781c733cfcb2f757a95",
+  "dimensions": [
+    512,
+    724
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic cropping",
+  "prompt": null,
+  "prompt_status": "deterministic source crop",
+  "references": [
+    {
+      "path": "output/glyphblade/layered-scenes/03-crypt/background/far-plate.png",
+      "role": "source plate"
+    }
+  ],
+  "operation": "Crop x=1024 through 1536. Place in numeric order without gaps."
+}

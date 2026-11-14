@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/02-chapel/foreground/props/drapes.png",
+  "image_sha256": "45ff10c9941769f29f966da858f13cbc214b45f6b8dae45a1333edd0065bfdcb",
+  "dimensions": [
+    192,
+    170
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/13-drapes.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Trim to alpha >=24 bounding box (214, 17, 1324, 1002), retain original alpha within box, resize nearest-neighbor to (192, 170).",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

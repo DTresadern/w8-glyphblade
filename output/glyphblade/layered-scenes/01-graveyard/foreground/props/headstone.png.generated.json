@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/01-graveyard/foreground/props/headstone.png",
+  "image_sha256": "fbfd003eefbafbaf00deeec015a21b07f252903a98b36b971e1ea84d93ab9c64",
+  "dimensions": [
+    71,
+    90
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/10-headstone.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Trim to alpha >=24 bounding box (331, 178, 965, 987), retain original alpha within box, resize nearest-neighbor to (71, 90).",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

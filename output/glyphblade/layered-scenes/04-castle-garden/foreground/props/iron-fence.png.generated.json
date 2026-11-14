@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/04-castle-garden/foreground/props/iron-fence.png",
+  "image_sha256": "099d3ec6810a7c89f8a866ca6f5c039dee3045e512be260e9962aa23c3045daf",
+  "dimensions": [
+    318,
+    90
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/17-iron-fence.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Trim to alpha >=24 bounding box (123, 90, 2050, 636), retain original alpha within box, resize nearest-neighbor to (318, 90).",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

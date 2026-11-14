@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/01-graveyard/foreground/props/arch.png",
+  "image_sha256": "848d1ef331adc17e36ed58ac1e16fccf95bf7ed53d882bd092e103a94a47a8ec",
+  "dimensions": [
+    161,
+    230
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/25-gothic-arch.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Trim to alpha >=24 bounding box (245, 11, 1059, 1171), retain original alpha within box, resize nearest-neighbor to (161, 230).",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

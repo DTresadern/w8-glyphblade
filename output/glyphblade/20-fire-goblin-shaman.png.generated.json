@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/20-fire-goblin-shaman.png",
+  "image_sha256": "bb27c9849f4cee1e562003a7930c48f3f0effb176872fe4bc93abcca691a78b0",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "format": "PNG",
+  "created_at": null,
+  "generator": "image_gen.imagegen (built-in)",
+  "prompt": "Use case: stylized-concept. Input image: user screenshot as gothic side-scrolling setting reference. Original standalone game artwork, matching the purple, charcoal, bone, crimson, teal and amber visual language of Ragnarok Online character charm and 32-bit Castlevania-inspired pixel art; crisp deliberate pixel clusters, readable silhouette, subtle detailed shading. Subject: One small fire goblin shaman with soot-black horns, ember eyes, tattered crimson robes, and a staff topped by a contained flame, side-view game enemy idle pose. Isolated subject, transparent background, generous margins, no scene, no UI, no words or lettering, no borders.",
+  "prompt_status": "exact",
+  "references": [
+    {
+      "path": "references/glyphblade/user-screenshot-rotated.png",
+      "role": "user-supplied setting reference"
+    }
+  ],
+  "subject": "20-fire-goblin-shaman",
+  "visual_approach": "Gothic fantasy pixel-style standalone asset",
+  "generation_settings": {
+    "transparent_background": true,
+    "other_settings": null
+  },
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Generator does not expose seed."
+  },
+  "revision_of": null,
+  "post_analysis": {
+    "provenance": "Post-generation subagent visual analysis; not part of the original generation prompt.",
+    "subject": "Red horned hooded shaman with skull ornaments and flaming staff",
+    "composition": "Single isolated subject.",
+    "environment": "Transparent surrounding pixels.",
+    "colors": "Dark violet, crimson, gold and cyan, varying with subject.",
+    "materials": "Stone, cloth, metal and water-like appearances as depicted.",
+    "lighting": "Stylized highlights and warm local flame or window glow.",
+    "standout_features": "Red horned hooded shaman with skull ornaments and flaming staff",
+    "important_details": "No obvious structural defect.",
+    "synopsis": "Red horned hooded shaman with skull ornaments and flaming staff",
+    "defect_analysis": {
+      "findings": [
+        {
+          "issue": "No obvious structural defect.",
+          "location": "Whole image",
+          "confidence": "high",
+          "impact": "Low."
+        }
+      ],
+      "overall": "Static concept art; sizes and apparent pixel scale vary."
+    },
+    "mismatches_or_uncertainties": "Some outputs have maximum alpha 254 rather than 255."
+  }
+}

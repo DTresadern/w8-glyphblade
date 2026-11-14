@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/02-chapel/background/far-plate-interior-generated.png",
+  "image_sha256": "90fb63e371e9f05ff78e9b4ae1bc98c2b44fbd35f6f07c5baceafae32dc5af3c",
+  "dimensions": [
+    1870,
+    841
+  ],
+  "format": "PNG",
+  "created_at": null,
+  "generator": "image_gen.imagegen (built-in)",
+  "prompt": "Use case: precise-object-edit. Input image: edit target and composition reference. Reconstruct the BACK WALL OF THIS CHAPEL INTERIOR as a wide opaque parallax background plate for a side-view gothic pixel-art game. KEEP THE VIEW INSIDE the chapel, including a central large stained glass window, tall interior columns, altar and interior vaulted stone walls. Remove the hunter, ghost, foreground candles, foreground drapes and the playable floor; fill their former locations with plausible interior wall and low fog. Preserve violet, crimson and amber palette and pixel style. Do not replace the interior with an exterior landscape. No text or UI.",
+  "prompt_status": "exact",
+  "references": [
+    {
+      "path": "output/glyphblade/02-chapel.png",
+      "role": "edit target and visual style reference"
+    }
+  ],
+  "subject": "Chapel interior reconstructed background plate",
+  "visual_approach": "Side-view Gothic fantasy 32-bit pixel style",
+  "generation_settings": {
+    "transparent_background": false,
+    "other_settings": null
+  },
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Generator does not expose seed."
+  },
+  "revision_of": "output/glyphblade/02-chapel.png",
+  "style_inheritance": "Original scene supplied as reference; no seed available.",
+  "post_analysis": {
+    "provenance": "Post-generation subagent visual analysis; not part of the original generation prompt.",
+    "subject": "Gothic chapel interior with stained glass and altar",
+    "composition": "Front-facing columns and windows, altar and stained glass figure centrally framed; fog along the bottom.",
+    "environment": "Vaulted stone interior with altar, cross, steps, vines and roses.",
+    "colors": "Purple and burgundy with orange-gold central light.",
+    "materials": "Stone, stained glass, cloth and foliage appearances.",
+    "lighting": "Warm light from central window against dark purple walls.",
+    "standout_features": "Praying woman depicted in central stained glass.",
+    "important_details": "No live character or playable floor visible.",
+    "synopsis": "A symmetrical chapel backdrop matching the original interior setting.",
+    "defect_analysis": {
+      "findings": [
+        {
+          "issue": "Altar, fog and architecture are baked together; edges and central landmark do not form a seamless repeat.",
+          "location": "Entire plate",
+          "confidence": "high",
+          "impact": "Cannot scroll these internal elements independently or loop without visible joins."
+        }
+      ],
+      "overall": "Usable as a reconstructed single plate with independently placed props."
+    }
+  }
+}

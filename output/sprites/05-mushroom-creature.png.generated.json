@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "image": "output/sprites/05-mushroom-creature.png",
+  "image_sha256": "91d8546c7ebcef5194d30524d9e5b342a54fc83d01b06ff94f39e01f80ace4a2",
+  "dimensions": [
+    1312,
+    1199
+  ],
+  "format": "PNG",
+  "created_at": null,
+  "generator": "image_gen.imagegen (built-in)",
+  "prompt": "Use case: stylized-concept. Create one original standalone game sprite: a small mushroom creature with a burgundy cap, cream gills and a patched cloak. Ragnarok-inspired expressive fantasy forms meet ornate gothic side-scroller pixel art. Single isolated subject, three-quarter view, consistent dark plum outlines, muted burgundy, bone, tarnished gold and teal palette, deliberate crisp pixel clusters, readable silhouette, no lettering, no frame, no ground, transparent background.",
+  "prompt_status": "exact",
+  "references": [],
+  "subject": "mushroom-creature",
+  "visual_approach": "Gothic fantasy pixel-style isolated asset",
+  "generation_settings": {
+    "transparent_background": true,
+    "other_settings": null
+  },
+  "creative_seed": {
+    "value": "58e99235d027f20f",
+    "source": "creative_seed.py visual profile; design provocation",
+    "used_for_generation": false,
+    "note": "The image generator does not expose a seed parameter."
+  },
+  "revision_of": null,
+  "post_analysis": {
+    "provenance": "Post-generation subagent visual analysis; not part of the original generation prompt.",
+    "subject": "Mushroom figure with red cap, cream gills and stitched clothing",
+    "composition": "Single isolated subject.",
+    "environment": "Transparent surrounding pixels; transparency verified separately.",
+    "colors": "Predominantly burgundy, teal, bone and gold, varying by subject.",
+    "materials": "Materials are depicted appearances.",
+    "lighting": "Stylized highlights and shaded forms.",
+    "standout_features": "Mushroom figure with red cap, cream gills and stitched clothing",
+    "important_details": "Hat and boots approach top and bottom edges",
+    "synopsis": "Mushroom figure with red cap, cream gills and stitched clothing",
+    "defect_analysis": {
+      "findings": [
+        {
+          "issue": "Hat and boots approach top and bottom edges",
+          "location": "See issue description",
+          "confidence": "high",
+          "impact": "Moderate for small sprites or cropping"
+        }
+      ],
+      "overall": "Apparent pixel size varies and soft shading limits strict small-grid pixel-art use."
+    },
+    "mismatches_or_uncertainties": "Initial viewer-based concerns about dark backgrounds were not corroborated by alpha checks; the bat was also composited over white."
+  }
+}

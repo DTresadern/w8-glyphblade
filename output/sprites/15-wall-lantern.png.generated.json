@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "image": "output/sprites/15-wall-lantern.png",
+  "image_sha256": "5182af6e57ab870f8d03e0326d84024fa0525035628da2c35079912d6cf8263b",
+  "dimensions": [
+    1219,
+    1290
+  ],
+  "format": "PNG",
+  "created_at": null,
+  "generator": "image_gen.imagegen (built-in)",
+  "prompt": "Use case: stylized-concept. Create one original standalone game sprite: a cast iron wall lantern with an amber flame, curved bracket and glass panes. Ragnarok-inspired expressive fantasy forms meet ornate gothic side-scroller pixel art. Single isolated subject, three-quarter view, consistent dark plum outlines, muted burgundy, bone, tarnished gold and teal palette, deliberate crisp pixel clusters, readable silhouette, no lettering, no frame, no ground, transparent background.",
+  "prompt_status": "exact",
+  "references": [],
+  "subject": "wall-lantern",
+  "visual_approach": "Gothic fantasy pixel-style isolated asset",
+  "generation_settings": {
+    "transparent_background": true,
+    "other_settings": null
+  },
+  "creative_seed": {
+    "value": "58e99235d027f20f",
+    "source": "creative_seed.py visual profile; design provocation",
+    "used_for_generation": false,
+    "note": "The image generator does not expose a seed parameter."
+  },
+  "revision_of": null,
+  "post_analysis": {
+    "provenance": "Post-generation subagent visual analysis; not part of the original generation prompt.",
+    "subject": "Gold and teal wall lantern with orange flame and ornate bracket",
+    "composition": "Single isolated subject.",
+    "environment": "Transparent surrounding pixels; transparency verified separately.",
+    "colors": "Predominantly burgundy, teal, bone and gold, varying by subject.",
+    "materials": "Materials are depicted appearances.",
+    "lighting": "Stylized highlights and shaded forms.",
+    "standout_features": "Gold and teal wall lantern with orange flame and ornate bracket",
+    "important_details": "Lower finial approaches edge",
+    "synopsis": "Gold and teal wall lantern with orange flame and ornate bracket",
+    "defect_analysis": {
+      "findings": [
+        {
+          "issue": "Lower finial approaches edge",
+          "location": "See issue description",
+          "confidence": "high",
+          "impact": "Moderate for small sprites or cropping"
+        }
+      ],
+      "overall": "Apparent pixel size varies and soft shading limits strict small-grid pixel-art use."
+    },
+    "mismatches_or_uncertainties": "Initial viewer-based concerns about dark backgrounds were not corroborated by alpha checks; the bat was also composited over white."
+  }
+}

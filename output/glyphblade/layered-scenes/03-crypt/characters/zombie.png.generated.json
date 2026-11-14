@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/03-crypt/characters/zombie.png",
+  "image_sha256": "7e9099d0ac63c0b1249e611d7d7d534c51f7aa8a69725bf590f63b5b3d7fa3ab",
+  "dimensions": [
+    128,
+    155
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/09-zombie.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Trim to alpha >=24 bounding box (312, 38, 1096, 991), retain original alpha within box, resize nearest-neighbor to (128, 155).",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

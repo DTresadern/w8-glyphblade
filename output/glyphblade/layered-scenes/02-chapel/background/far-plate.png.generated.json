@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/02-chapel/background/far-plate.png",
+  "image_sha256": "e309d59d43b9007feeb7379f4d992e7945b1edfa403f027548d269f43ab73d2a",
+  "dimensions": [
+    1870,
+    841
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "deterministic resize and center crop of generated plate",
+  "references": [
+    {
+      "path": "output/glyphblade/layered-scenes/02-chapel/background/far-plate-interior-generated.png",
+      "role": "generated source"
+    }
+  ],
+  "operation": "Fit to (1870, 841) with nearest-neighbor resizing and centered cropping"
+}

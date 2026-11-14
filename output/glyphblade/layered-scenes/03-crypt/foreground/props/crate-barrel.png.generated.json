@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/03-crypt/foreground/props/crate-barrel.png",
+  "image_sha256": "f89f7952dda89df693c2678d136af05539122d10c1f43efa225d80b13d5eb950",
+  "dimensions": [
+    113,
+    140
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/28-crate-barrel.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Trim to alpha >=24 bounding box (431, 117, 1079, 919), retain original alpha within box, resize nearest-neighbor to (113, 140).",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

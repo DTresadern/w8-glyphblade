@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/02-chapel/preview-composite.png",
+  "image_sha256": "88c9cdedf1aaa13c7d6515bb12a9b0865c564cd26653f8c2a0644d9c59a409fa",
+  "dimensions": [
+    1870,
+    841
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image compositing",
+  "prompt": null,
+  "prompt_status": "not generated; composite preview",
+  "references": [
+    {
+      "path": "output/glyphblade/layered-scenes/02-chapel/background/far-plate.png",
+      "role": "far plate"
+    },
+    {
+      "path": "output/glyphblade/layered-scenes/02-chapel/background/back-props-layout.png",
+      "role": "back props layer"
+    },
+    {
+      "path": "output/glyphblade/layered-scenes/02-chapel/background/mid-props-layout.png",
+      "role": "mid props layer"
+    },
+    {
+      "path": "output/glyphblade/layered-scenes/02-chapel/background/near-props-layout.png",
+      "role": "near props layer"
+    },
+    {
+      "path": "output/glyphblade/layered-scenes/02-chapel/foreground/source-ground-strip.png",
+      "role": "foreground source crop"
+    }
+  ],
+  "operation": "Alpha-composite layers in order; paste source ground strip at floor_top_y."
+}

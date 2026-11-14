@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "image": "output/characters/mushroom-shirt-hero-eight-directions.png",
+  "image_sha256": "d320fff43a94807499d3a3c99f995a9b562191386deac1cba4fb8a5a5297dd37",
+  "dimensions": [
+    1774,
+    887
+  ],
+  "format": "PNG",
+  "created_at": null,
+  "generator": "image_gen.imagegen (built-in)",
+  "prompt": "Use case: stylized-concept. Create a single character turnaround sprite sheet for a gothic RPG, visually compatible with 32-bit Castlevania and Ragnarok Online inspired pixel art. Original main character: a lanky white adult man with light skin, long thin limbs and relaxed posture, wearing an oversized plain white T-shirt with a clear small red-capped mushroom illustration printed on its chest, loose dark trousers and worn shoes. Keep the outfit contemporary and simple. Exactly eight separate full-body idle sprites of the same character, once each, on a regular 4-column by 2-row grid: front, front-left, left profile, back-left, back, back-right, right profile, front-right. Equal apparent height, same hairstyle and body proportions in each direction, evenly spaced, consistent baseline in each row, no overlap, no cropped feet or hair. The mushroom print is visible only where the shirt front is visible. Deliberate pixel clusters, dark outlines, restrained Gothic palette, no scene, no borders, no lettering or labels, no extra characters, transparent background.",
+  "prompt_status": "exact",
+  "references": [],
+  "subject": "Lanky hero in mushroom T-shirt",
+  "visual_approach": "Gothic RPG pixel-style eight-direction turnaround",
+  "generation_settings": {
+    "transparent_background": true,
+    "other_settings": null
+  },
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Generator does not expose seed."
+  },
+  "revision_of": null,
+  "post_analysis": {
+    "provenance": "Post-generation subagent visual analysis; not part of the original generation prompt.",
+    "subject": "Slender pale man with shoulder-length dark brown hair, oversized off-white mushroom shirt, very loose dark trousers and brown shoes.",
+    "composition": "Eight idle views in two rows of four: front, front-left, left, back-left, back, back-right, right, front-right.",
+    "environment": "No scene; alpha samples in surrounding areas are transparent.",
+    "colors": "Muted dark clothing with soft warm highlights.",
+    "materials": "Cloth and leather-like visual appearances.",
+    "lighting": "Soft, muted highlights.",
+    "standout_features": "Slender pale man with shoulder-length dark brown hair, oversized off-white mushroom shirt, very loose dark trousers and brown shoes.",
+    "important_details": "Feet placement and scale vary slightly between views.",
+    "synopsis": "Slender pale man with shoulder-length dark brown hair, oversized off-white mushroom shirt, very loose dark trousers and brown shoes.",
+    "defect_analysis": {
+      "findings": [
+        {
+          "issue": "Thin red fringe above hair and around outlines.",
+          "location": "Across views",
+          "confidence": "High",
+          "impact": "Low to moderate cleanup impact."
+        },
+        {
+          "issue": "Scale and foot placement vary slightly",
+          "location": "Across views",
+          "confidence": "medium",
+          "impact": "May require adjustment when building an atlas."
+        }
+      ],
+      "overall": "Static turnaround; not an animation cycle or verified measured frame grid."
+    }
+  }
+}

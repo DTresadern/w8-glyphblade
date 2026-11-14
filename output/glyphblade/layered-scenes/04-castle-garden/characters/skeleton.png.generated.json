@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/04-castle-garden/characters/skeleton.png",
+  "image_sha256": "20d737bb41377b8b7d6d20b6c142c9f2a58c5445d7e0e99e2134e9ac500b4f53",
+  "dimensions": [
+    153,
+    145
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/06-skeleton-warrior.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Trim to alpha >=24 bounding box (275, 124, 1127, 931), retain original alpha within box, resize nearest-neighbor to (153, 145).",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

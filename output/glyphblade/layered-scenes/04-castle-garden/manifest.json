@@ -1,0 +1,83 @@
+{
+  "source": "source/mockup.png",
+  "canvas_pixels": [
+    2172,
+    724
+  ],
+  "floor_top_y": 600,
+  "tile_size": [
+    128,
+    64
+  ],
+  "grid_origin": [
+    0,
+    600
+  ],
+  "source_tile_rows": 2,
+  "source_tile_columns": 17,
+  "parallax_suggested_factors": {
+    "far_plate": 0.15,
+    "back": 0.35,
+    "mid": 0.65,
+    "near": 0.85,
+    "ground": 1.0
+  },
+  "layers": {
+    "back": {
+      "file": "background/back-props-layout.png",
+      "placements": [
+        {
+          "asset": "dead-tree",
+          "x": 10,
+          "bottom_y": 600
+        },
+        {
+          "asset": "dead-tree",
+          "x": 1700,
+          "bottom_y": 600
+        }
+      ]
+    },
+    "mid": {
+      "file": "background/mid-props-layout.png",
+      "placements": [
+        {
+          "asset": "arch",
+          "x": 400,
+          "bottom_y": 600
+        },
+        {
+          "asset": "arch",
+          "x": 1150,
+          "bottom_y": 600
+        },
+        {
+          "asset": "iron-fence",
+          "x": 700,
+          "bottom_y": 600
+        },
+        {
+          "asset": "headstone",
+          "x": 1500,
+          "bottom_y": 600
+        }
+      ]
+    },
+    "near": {
+      "file": "background/near-props-layout.png",
+      "placements": [
+        {
+          "asset": "candelabrum",
+          "x": 1050,
+          "bottom_y": 600
+        },
+        {
+          "asset": "banner",
+          "x": 900,
+          "bottom_y": 300
+        }
+      ]
+    }
+  },
+  "note": "Layer layouts are new compositions using existing separate props, not exact segmentation of the flattened image. Ground tile pieces preserve adjacency only in source order; repeating is not seamless. Rightmost and bottommost tiles may have transparent padding. Original and reconstructed scales differ; tune props per game."
+}

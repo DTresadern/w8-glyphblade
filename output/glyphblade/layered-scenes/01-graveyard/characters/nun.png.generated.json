@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/01-graveyard/characters/nun.png",
+  "image_sha256": "d499e80f397f2ea87ff3374db78e55130af51f166d737615bd72a34c95b8d06f",
+  "dimensions": [
+    65,
+    145
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/07-lantern-nun.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Trim to alpha >=24 bounding box (208, 128, 804, 1451), retain original alpha within box, resize nearest-neighbor to (65, 145).",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

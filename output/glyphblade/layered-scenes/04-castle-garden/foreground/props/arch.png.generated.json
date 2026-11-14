@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/04-castle-garden/foreground/props/arch.png",
+  "image_sha256": "baff51d7d6c3b741fbf516bd65def25fa4bdd2283c37af2b557ee32b4b72efc1",
+  "dimensions": [
+    211,
+    300
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/25-gothic-arch.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Trim to alpha >=24 bounding box (245, 11, 1059, 1171), retain original alpha within box, resize nearest-neighbor to (211, 300).",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}

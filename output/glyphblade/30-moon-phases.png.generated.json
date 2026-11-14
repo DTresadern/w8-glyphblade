@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/30-moon-phases.png",
+  "image_sha256": "b1dea2bbeae1c590078c91cbb79a346c26842098c48a4cc6befe3e60fb25c035",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "format": "PNG",
+  "created_at": null,
+  "generator": "image_gen.imagegen (built-in)",
+  "prompt": "Use case: stylized-concept. Input image: user screenshot as gothic side-scrolling setting reference. Original standalone game artwork, matching the purple, charcoal, bone, crimson, teal and amber visual language of Ragnarok Online character charm and 32-bit Castlevania-inspired pixel art; crisp deliberate pixel clusters, readable silhouette, subtle detailed shading. Subject: A single sprite sheet with exactly five separate moons, in one evenly spaced horizontal row: new moon as a very dark disk, waxing crescent, half moon, gibbous moon, full blood moon. Each same size, round, crisp dark outlines, subtle crater texture, no text or labels, generous space between disks. Isolated subject, transparent background, generous margins, no scene, no UI, no words or lettering, no borders.",
+  "prompt_status": "exact",
+  "references": [
+    {
+      "path": "references/glyphblade/user-screenshot-rotated.png",
+      "role": "user-supplied setting reference"
+    }
+  ],
+  "subject": "30-moon-phases",
+  "visual_approach": "Gothic fantasy pixel-style standalone asset",
+  "generation_settings": {
+    "transparent_background": true,
+    "other_settings": null
+  },
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Generator does not expose seed."
+  },
+  "revision_of": null,
+  "post_analysis": {
+    "provenance": "Post-generation subagent visual analysis; not part of the original generation prompt.",
+    "subject": "Five separated moon disks: dark, crescent, half, gibbous and red full moon",
+    "composition": "Five separate disks in a horizontal row.",
+    "environment": "Transparent surrounding pixels.",
+    "colors": "Dark violet, crimson, gold and cyan, varying with subject.",
+    "materials": "Stone, cloth, metal and water-like appearances as depicted.",
+    "lighting": "Stylized highlights and warm local flame or window glow.",
+    "standout_features": "Five separated moon disks: dark, crescent, half, gibbous and red full moon",
+    "important_details": "No separate pale full moon; discs have no frame boundaries.",
+    "synopsis": "Five separated moon disks: dark, crescent, half, gibbous and red full moon",
+    "defect_analysis": {
+      "findings": [
+        {
+          "issue": "No separate pale full moon; discs have no frame boundaries.",
+          "location": "Whole image",
+          "confidence": "high",
+          "impact": "Low."
+        }
+      ],
+      "overall": "Static concept art; sizes and apparent pixel scale vary."
+    },
+    "mismatches_or_uncertainties": "Some outputs have maximum alpha 254 rather than 255."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "image": "output/glyphblade/layered-scenes/04-castle-garden/foreground/props/pillar.png",
+  "image_sha256": "05cd17ea078f02ba0d30aaa584fee1307116c0e4c3d7343519014182afcd048c",
+  "dimensions": [
+    66,
+    220
+  ],
+  "format": "PNG",
+  "generator": "Pillow deterministic image processing",
+  "prompt": null,
+  "prompt_status": "not generated; deterministic derivative",
+  "references": [
+    {
+      "path": "output/glyphblade/18-stone-pillar.png",
+      "role": "source artwork"
+    }
+  ],
+  "operation": "Trim to alpha >=24 bounding box (297, 72, 724, 1488), retain original alpha within box, resize nearest-neighbor to (66, 220).",
+  "creative_seed": {
+    "value": null,
+    "source": null,
+    "used_for_generation": false,
+    "note": "Deterministic operation."
+  }
+}
